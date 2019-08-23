@@ -7,4 +7,11 @@
     <string name="login_button">Login</string>
 
     <string name="empty_text" />
+
+    <string name="first_fragment">first fragment</string>
+    <string name="second_fragment">second fragment</string>
+    <string name="add_text">Add</string>
+    <string name="remove_text">Remove</string>
+    <string name="replace_text">Replace</string>
+    <string name="_002_dynamic_fragment_text">002_dynamic_fragment</string>
 </resources>
