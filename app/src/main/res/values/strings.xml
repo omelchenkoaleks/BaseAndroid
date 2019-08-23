@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Base Android</string>
+    <string name="_001_fragment_button">001_Fragment</string>
+
+    <string name="login_text">Login:</string>
+    <string name="password_text">Password:</string>
+    <string name="login_button">Login</string>
+
+    <string name="empty_text" />
 </resources>
