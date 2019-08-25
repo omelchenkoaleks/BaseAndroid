@@ -55,6 +55,13 @@
                 android:onClick="click"
                 android:text="@string/_005_send_data_to_fragment" />
 
+            <Button
+                android:id="@+id/_006_fragment_example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click"
+                android:text="@string/fragment_example_text" />
+
         </LinearLayout>
 
     </ScrollView>

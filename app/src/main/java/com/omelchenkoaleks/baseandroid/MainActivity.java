@@ -12,6 +12,8 @@ import com.omelchenkoaleks.baseandroid._003_fragments_and_activity.FragmentsAndA
 import com.omelchenkoaleks.baseandroid._004_fragments_lifesycle.FragmentsLifecycleActivity;
 import com.omelchenkoaleks.baseandroid._005_send_data_from_activity.DataFragment;
 import com.omelchenkoaleks.baseandroid._005_send_data_from_activity.SendDataActivity;
+import com.omelchenkoaleks.baseandroid._006_fragment_example.ExampleFragment;
+import com.omelchenkoaleks.baseandroid._006_fragment_example.RegisterOrLoginActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent sendDataIntent = new Intent(this, SendDataActivity.class);
                 startActivity(sendDataIntent);
                 break;
+
+            case R.id._006_fragment_example:
+                Intent fragmentExample = new Intent(this, RegisterOrLoginActivity.class);
+                startActivity(fragmentExample);
 
             default:
                 finish();

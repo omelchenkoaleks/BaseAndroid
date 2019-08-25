@@ -25,8 +25,6 @@ public class DataFragment extends Fragment {
     }
 
     // из этого метода во Фрагменте мы получаем данные
-
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
