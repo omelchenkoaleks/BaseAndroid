@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.omelchenkoaleks.baseandroid._001_login_or_password.LoginOrPasswordActivity;
 import com.omelchenkoaleks.baseandroid._002_adding_fragment.AddingFragmentActivity;
+import com.omelchenkoaleks.baseandroid._003_fragments_and_activity.FragmentsAndActivitiesActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id._002_dynamic_fragment:
                 Intent dynamicFragmentIntent = new Intent(this, AddingFragmentActivity.class);
                 startActivity(dynamicFragmentIntent);
+
+            case R.id._003_fragments_and_activities:
+                Intent fragmentAndActivityIntent = new Intent(this, FragmentsAndActivitiesActivity.class);
+                startActivity(fragmentAndActivityIntent);
 
             default:
                 finish();

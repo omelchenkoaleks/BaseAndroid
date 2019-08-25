@@ -14,4 +14,9 @@
     <string name="remove_text">Remove</string>
     <string name="replace_text">Replace</string>
     <string name="_002_dynamic_fragment_text">002_dynamic_fragment</string>
+    <string name="_003_fragments_and_activities">003_Fragments_and_Activities</string>
+
+    <string name="hello_second_fragment_text">Hello Second Fragment</string>
+    <string name="hello_activity_text">Hello Activity</string>
+    <string name="hello_first_fragment">Hello First Fragment</string>
 </resources>
