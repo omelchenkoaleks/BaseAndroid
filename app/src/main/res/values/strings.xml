@@ -23,4 +23,5 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="_004_fragments_lifecycle">004 Fragments Lifecycle</string>
+    <string name="_005_send_data_to_fragment">005 Send Data to Fragment</string>
 </resources>
