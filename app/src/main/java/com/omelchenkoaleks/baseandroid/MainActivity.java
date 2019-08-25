@@ -9,6 +9,7 @@ import android.view.View;
 import com.omelchenkoaleks.baseandroid._001_login_or_password.LoginOrPasswordActivity;
 import com.omelchenkoaleks.baseandroid._002_adding_fragment.AddingFragmentActivity;
 import com.omelchenkoaleks.baseandroid._003_fragments_and_activity.FragmentsAndActivitiesActivity;
+import com.omelchenkoaleks.baseandroid._004_fragments_lifesycle.FragmentsLifecycleActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,10 +29,17 @@ public class MainActivity extends AppCompatActivity {
             case R.id._002_dynamic_fragment:
                 Intent dynamicFragmentIntent = new Intent(this, AddingFragmentActivity.class);
                 startActivity(dynamicFragmentIntent);
+                break;
 
             case R.id._003_fragments_and_activities:
                 Intent fragmentAndActivityIntent = new Intent(this, FragmentsAndActivitiesActivity.class);
                 startActivity(fragmentAndActivityIntent);
+                break;
+
+            case R.id._004_fragments_lifecycle:
+                Intent fragmentsLifecycle = new Intent(this, FragmentsLifecycleActivity.class);
+                startActivity(fragmentsLifecycle);
+                break;
 
             default:
                 finish();

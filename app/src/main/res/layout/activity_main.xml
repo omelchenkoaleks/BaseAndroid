@@ -41,6 +41,13 @@
                 android:onClick="click"
                 android:text="@string/_003_fragments_and_activities" />
 
+            <Button
+                android:id="@+id/_004_fragments_lifecycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click"
+                android:text="@string/_004_fragments_lifecycle" />
+
         </LinearLayout>
 
     </ScrollView>
