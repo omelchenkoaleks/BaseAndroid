@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings_menu"
+        android:title="@string/settings_text"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/about_author_menu"
+        android:title="@string/about_author_text"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/official_site_menu"
+        android:title="@string/official_site"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+</menu>

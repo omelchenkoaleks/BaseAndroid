@@ -62,6 +62,13 @@
                 android:onClick="click"
                 android:text="@string/fragment_example_text" />
 
+            <Button
+                android:id="@+id/_007_menu_example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click"
+                android:text="@string/_007_menu_example" />
+
         </LinearLayout>
 
     </ScrollView>

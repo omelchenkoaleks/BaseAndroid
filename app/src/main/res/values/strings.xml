@@ -32,5 +32,11 @@
     <string name="register_text">Register</string>
     <string name="your_login_text">Your Login:</string>
     <string name="fragment_example_text">Fragment Example</string>
+    <string name="settings_text">Settings</string>
+    <string name="about_author_text">About Author</string>
+    <string name="official_site">Official Site</string>
+    <string name="aleksandr_omelchenko">Aleksandr Omelchenko</string>
+    <string name="_40">40</string>
+    <string name="_007_menu_example">007 Menu Example</string>
 
 </resources>

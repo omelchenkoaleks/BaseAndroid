@@ -14,6 +14,7 @@ import com.omelchenkoaleks.baseandroid._005_send_data_from_activity.DataFragment
 import com.omelchenkoaleks.baseandroid._005_send_data_from_activity.SendDataActivity;
 import com.omelchenkoaleks.baseandroid._006_fragment_example.ExampleFragment;
 import com.omelchenkoaleks.baseandroid._006_fragment_example.RegisterOrLoginActivity;
+import com.omelchenkoaleks.baseandroid._007_menu.MainMenuActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -53,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
             case R.id._006_fragment_example:
                 Intent fragmentExample = new Intent(this, RegisterOrLoginActivity.class);
                 startActivity(fragmentExample);
+                break;
+
+            case R.id._007_menu_example:
+                Intent menuExampleIntent = new Intent(this, MainMenuActivity.class);
+                startActivity(menuExampleIntent);
+                break;
 
             default:
                 finish();
