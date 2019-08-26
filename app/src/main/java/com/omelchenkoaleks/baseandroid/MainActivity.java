@@ -15,6 +15,7 @@ import com.omelchenkoaleks.baseandroid._005_send_data_from_activity.SendDataActi
 import com.omelchenkoaleks.baseandroid._006_fragment_example.ExampleFragment;
 import com.omelchenkoaleks.baseandroid._006_fragment_example.RegisterOrLoginActivity;
 import com.omelchenkoaleks.baseandroid._007_menu.MainMenuActivity;
+import com.omelchenkoaleks.baseandroid._008_navigation_tabs.NavigationTabsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id._007_menu_example:
                 Intent menuExampleIntent = new Intent(this, MainMenuActivity.class);
                 startActivity(menuExampleIntent);
+                break;
+
+            case R.id._008_navigation_tabs:
+                Intent navigationTabsIntent = new Intent(this, NavigationTabsActivity.class);
+                startActivity(navigationTabsIntent);
                 break;
 
             default:

@@ -31,11 +31,14 @@ public class MainMenuActivity extends AppCompatActivity {
         switch (item.getItemId()) {
 
             case R.id.settings_menu:
+
                 Toast.makeText(this, "You pick settings! :)", Toast.LENGTH_SHORT).show();
                 return true;
 
             case R.id.about_author_menu:
+
                 Fragment fragment = getFragmentManager().findFragmentByTag(AuthorFragment.TAG);
+
                 if (fragment == null) {
                     getFragmentManager().beginTransaction()
                             .add(R.id.frame_layout_menu, new AuthorFragment(), AuthorFragment.TAG).commit();
@@ -45,6 +48,7 @@ public class MainMenuActivity extends AppCompatActivity {
                 return true;
 
             case R.id.official_site_menu:
+
                 Intent intent = new Intent(this, OfficialSiteActivityActivity.class);
                 startActivity(intent);
                 return true;
