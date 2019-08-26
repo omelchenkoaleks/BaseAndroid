@@ -1,21 +1,20 @@
 package com.omelchenkoaleks.baseandroid;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.omelchenkoaleks.baseandroid._001_login_or_password.LoginOrPasswordActivity;
 import com.omelchenkoaleks.baseandroid._002_adding_fragment.AddingFragmentActivity;
 import com.omelchenkoaleks.baseandroid._003_fragments_and_activity.FragmentsAndActivitiesActivity;
 import com.omelchenkoaleks.baseandroid._004_fragments_lifesycle.FragmentsLifecycleActivity;
-import com.omelchenkoaleks.baseandroid._005_send_data_from_activity.DataFragment;
 import com.omelchenkoaleks.baseandroid._005_send_data_from_activity.SendDataActivity;
-import com.omelchenkoaleks.baseandroid._006_fragment_example.ExampleFragment;
 import com.omelchenkoaleks.baseandroid._006_fragment_example.RegisterOrLoginActivity;
 import com.omelchenkoaleks.baseandroid._007_menu.MainMenuActivity;
 import com.omelchenkoaleks.baseandroid._008_navigation_tabs.NavigationTabsActivity;
+import com.omelchenkoaleks.baseandroid._009_navigation_list.NavigationListActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -66,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent navigationTabsIntent = new Intent(this, NavigationTabsActivity.class);
                 startActivity(navigationTabsIntent);
                 break;
+
+            case R.id._009_navigation_list:
+                Intent navigationListIntent = new Intent(this, NavigationListActivity.class);
+                startActivity(navigationListIntent);
 
             default:
                 finish();
