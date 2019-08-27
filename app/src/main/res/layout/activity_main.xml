@@ -83,6 +83,13 @@
                 android:onClick="click"
                 android:text="@string/_009_navigation_list" />
 
+            <Button
+                android:id="@+id/_010_dynamic_action_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click"
+                android:text="@string/_010_dynamic_action_bar" />
+
         </LinearLayout>
 
     </ScrollView>

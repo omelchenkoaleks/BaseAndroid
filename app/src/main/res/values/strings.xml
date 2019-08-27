@@ -40,5 +40,12 @@
     <string name="_007_menu_example">007 Menu Example</string>
     <string name="navigation_tabs">008 Navigation Tabs</string>
     <string name="_009_navigation_list">009 Navigation List</string>
+    <string name="_010_dynamic_action_bar">010 Dynamic Action Bar</string>
+    <string name="show_text">Show</string>
+    <string name="fragment_text">Fragment</string>
+    <string name="fragment_1_item">Fragment 1 Item</string>
+    <string name="fragment_2_item">Fragment 2 Item</string>
+    <string name="menu_group">Menu Group</string>
+    <string name="group">Group menu</string>
 
 </resources>
