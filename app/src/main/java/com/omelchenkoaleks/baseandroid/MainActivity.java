@@ -16,6 +16,7 @@ import com.omelchenkoaleks.baseandroid._007_menu.MainMenuActivity;
 import com.omelchenkoaleks.baseandroid._008_navigation_tabs.NavigationTabsActivity;
 import com.omelchenkoaleks.baseandroid._009_navigation_list.NavigationListActivity;
 import com.omelchenkoaleks.baseandroid._010_dynamic_action_bar.DynamicActionBarActivity;
+import com.omelchenkoaleks.baseandroid._011_action_mode.ActionModeActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -75,6 +76,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id._010_dynamic_action_bar:
                 Intent dynamicActionBarIntent = new Intent(this, DynamicActionBarActivity.class);
                 startActivity(dynamicActionBarIntent);
+                break;
+
+            case R.id._011_action_mode:
+                Intent actionModeIntent = new Intent(this, ActionModeActivity.class);
+                startActivity(actionModeIntent);
                 break;
 
             default:

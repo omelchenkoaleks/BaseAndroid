@@ -47,5 +47,11 @@
     <string name="fragment_2_item">Fragment 2 Item</string>
     <string name="menu_group">Menu Group</string>
     <string name="group">Group menu</string>
+    <string name="item_1">Item1</string>
+    <string name="item_2">Item2</string>
+    <string name="item_3">Item3</string>
+    <string name="item_4">Item4</string>
+    <string name="_011_action_mode">011 Action Mode</string>
+    <string name="action_mode_text">Action Mode</string>
 
 </resources>
