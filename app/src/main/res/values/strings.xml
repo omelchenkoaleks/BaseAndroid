@@ -53,5 +53,12 @@
     <string name="item_4">Item4</string>
     <string name="_011_action_mode">011 Action Mode</string>
     <string name="action_mode_text">Action Mode</string>
+    <string name="first_dialog_fragment">First Dialog Fragment</string>
+    <string name="second_dialog_fragment">Second Dialog Fragment</string>
+    <string name="_012_dialog_fragment">012 Dialog Fragment</string>
+    <string name="you_agree_with_us">You agree with us?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="maybe">MAYBE</string>
 
 </resources>

@@ -97,6 +97,13 @@
                 android:onClick="click"
                 android:text="@string/_011_action_mode" />
 
+            <Button
+                android:id="@+id/_012_dialog_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click"
+                android:text="@string/_012_dialog_fragment" />
+
         </LinearLayout>
 
     </ScrollView>

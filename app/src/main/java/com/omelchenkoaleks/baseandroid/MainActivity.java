@@ -17,6 +17,7 @@ import com.omelchenkoaleks.baseandroid._008_navigation_tabs.NavigationTabsActivi
 import com.omelchenkoaleks.baseandroid._009_navigation_list.NavigationListActivity;
 import com.omelchenkoaleks.baseandroid._010_dynamic_action_bar.DynamicActionBarActivity;
 import com.omelchenkoaleks.baseandroid._011_action_mode.ActionModeActivity;
+import com.omelchenkoaleks.baseandroid._012_dialog_fragment.DialogFragmentActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -82,6 +83,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent actionModeIntent = new Intent(this, ActionModeActivity.class);
                 startActivity(actionModeIntent);
                 break;
+
+            case R.id._012_dialog_fragment:
+                Intent dialogFragmentIntent = new Intent(this, DialogFragmentActivity.class);
+                startActivity(dialogFragmentIntent);
 
             default:
                 finish();
